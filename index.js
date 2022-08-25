@@ -4,8 +4,8 @@ const fs = require('fs');
 const genMd = require('./utils/generateMarkdown.js');
 
 //Named constant same as class definition.
-const SectionData=require('./utils/SectionData.js');
-const Question=require('./utils/Question.js');
+const SectionData = require('./utils/SectionData.js');
+const Question = require('./utils/Question.js');
 
 //possible question types
 const qTypes = {
@@ -20,7 +20,6 @@ const qTypes = {
     editor: "editor"
 }
 
-
 // TODO: Create an array of questions for user input
 const questions = [
     new Question(qTypes.input,"What is the name of your project?","Title"),
@@ -28,28 +27,31 @@ const questions = [
     new Question(qTypes.input,"How should your app be installed?","Installation"),
     new Question(qTypes.input,"How should your app be used?","Usage"),
     new Question(qTypes.list,"What license will you be using?","License",["MIT License","Not the MIT License"]),
-    new Question(qTypes.confirm,"Would you like to add notes to the credits section?","CredCheck")
+    new Question(qTypes.input,"Who contributed?","Credits"),
+    new Question(qTypes.input,"How should someone contribute?","Contributing"),
+    new Question(qTypes.input,"Any special testing instructions?","Testing"),
+    new Question(dTypes.input,"What is your github username?","GitHub"),
+    new Question(dTypes.input,"What is your email?","Email")
     ];
 
 var sections=[]
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName+".md",genMd.generateMarkdown(data),(error)=>
+    fs.writeFile(fileName,genMd(data),(err)=>
         err ? console.error(err) : console.log('File written.')
     );
 }
 
 // TODO: Create a function to initialize app
 function init() {
-
     inquirer
-        .prompt(questions)
-        .then((response) =>
-            console.log(response)
-        );
-
-
+    .prompt(questions)
+    .then((response) =>
+        {
+            writeToFile("TestREADME.md",response);
+        }
+    );
 }
 
 
