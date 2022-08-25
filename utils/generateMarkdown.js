@@ -30,8 +30,11 @@ function generateMarkdown(data) {
   ## Table of Contents\n
   [Installation](#installation)\n
   [Usage](#usage)\n
-  [Credits](#credits)\n
   [License](#license)\n
+  [Collaborators](#collaborators)\n
+  [Contributing](#contributing)\n
+  [Tests](#tests)\n
+  [Questions](#questions)\n
   \n
   # Installation\n
   ${data.Installation}\n
@@ -39,11 +42,23 @@ function generateMarkdown(data) {
   # Usage \n
   ${data.Usage}\n
   \n
-  #License \n
+  # License \n
   ${data.License}\n
   \n
-  #Credits\n
+  # Collaborators\n
   ${data.Credits}\n
+  \n
+  # Contributing\n
+  ${data.Contributing}\n
+  \n
+  # Tests\n
+  ${data.Testing}\n
+  \n
+
+  # Questions\n
+  [Github](${data.GitHub})\n
+  [Email](mailto:${data.Email})
+  \n
 
   `;
 }

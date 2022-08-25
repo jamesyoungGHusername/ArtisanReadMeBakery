@@ -14,9 +14,15 @@
 
   [Usage](#usage)
 
-  [Credits](#credits)
-
   [License](#license)
+
+  [Collaborators](#collaborators)
+
+  [Contributing](#contributing)
+
+  [Testing_Instructions](#testing_instructions)
+
+  [Questions?](#questions?)
 
   
 
@@ -32,15 +38,37 @@
 
   
 
-  #License 
+  # License 
 
   MIT License
 
   
 
-  #Credits
+  # Collaborators
+
+  
+
+  
+
+  # Contributing
 
   asdf
+
+  
+
+  # Testing_Instructions
+
+  asdf
+
+  
+
+
+  # Questions?
+
+  [Github](asdf)
+
+  [Email](mailto:jamesyoungwrites@gmail.com)
+  
 
 
   

@@ -30,8 +30,8 @@ const questions = [
     new Question(qTypes.input,"Who contributed?","Credits"),
     new Question(qTypes.input,"How should someone contribute?","Contributing"),
     new Question(qTypes.input,"Any special testing instructions?","Testing"),
-    new Question(dTypes.input,"What is your github username?","GitHub"),
-    new Question(dTypes.input,"What is your email?","Email")
+    new Question(qTypes.input,"What is your github username?","GitHub"),
+    new Question(qTypes.input,"What is your email?","Email")
     ];
 
 var sections=[]
