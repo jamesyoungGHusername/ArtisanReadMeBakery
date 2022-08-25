@@ -15,3 +15,5 @@ const defaults={
     title:"",
     description:""
 }
+
+module.exports=SectionData;
