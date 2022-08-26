@@ -10,7 +10,7 @@
 
   ## Table of Contents
 
-  [Installation](#installation)
+  1. [Installation](#installation)
 
   [Usage](#usage)
 
