@@ -4,7 +4,6 @@ const fs = require('fs');
 const genMd = require('./utils/generateMarkdown.js');
 
 //Named constant same as class definition.
-const SectionData = require('./utils/SectionData.js');
 const Question = require('./utils/Question.js');
 
 //possible question types
