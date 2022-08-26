@@ -25,7 +25,7 @@ const questions = [
     new Question(qTypes.input,"Describe your project.","Description"),
     new Question(qTypes.input,"How should your app be installed?","Installation"),
     new Question(qTypes.input,"How should your app be used?","Usage"),
-    new Question(qTypes.list,"What license will you be using?","License",["MIT License","Not the MIT License"]),
+    new Question(qTypes.list,"What license will you be using?","License",["MIT License","Apache 2.0","BSD 3-Clause","BSD 2-Clause","GNU GPL","GNU LGPL","Mozilla Public License 2.0","Common Development and Distribution License","Eclipse Public License version 2.0"]),
     new Question(qTypes.input,"Who contributed?","Credits"),
     new Question(qTypes.input,"How should someone contribute?","Contributing"),
     new Question(qTypes.input,"Any special testing instructions?","Testing"),
