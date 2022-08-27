@@ -1,4 +1,4 @@
-# ArtisanReadmeBakery
+# Example project
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -6,7 +6,7 @@
 
   # Description
 
-    This shell-based program can be used to bake artisan, bespoke readme.md files.
+    it's an example
 
     
 
@@ -30,13 +30,13 @@
 
   # Installation
 
-  It can be downloaded from github, and run using the terminal.
+  by downloading it from github
 
   
 
   # Usage 
 
-  Whether you need a short readme, or a long readme, if you're writing open-source software, this can help you document it in a logical and accessible way
+  to generate readmes
 
   
 
@@ -54,20 +54,20 @@
 
   # Contributing
 
-  Contact James on github or by email using the mailto in the readme
+  THey should contact james online, through github
 
   
 
   # Tests
 
-  No testing suite has currently been made for this project. If it is to be expanded upon in the future this would be a good thing to add
+  no special testing instructions
 
   
 
 
   # Questions
 
-  [Github](https://www.github.com/jamesyoungGHusername)
+  [Github](www.github.com/jamesyoungGHusername)
 
   [Email](mailto:jamesyoungwrites@gmail.com)
   

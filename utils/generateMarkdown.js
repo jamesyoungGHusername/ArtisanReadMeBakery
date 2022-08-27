@@ -96,7 +96,7 @@ function generateMarkdown(data) {
   \n
 
   # Questions\n
-  [Github](www.github.com/${data.GitHub})\n
+  [Github](https://www.github.com/${data.GitHub})\n
   [Email](mailto:${data.Email})
   \n
 
